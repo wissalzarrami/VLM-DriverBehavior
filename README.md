@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-# [Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos](https://arxiv.org/abs/2306.10159)  
-
-Here is the codebase for running the frame based DriveCLIP framework. The summary results on different distracted driving datasets are:
-
-<img src="img/summary_result_clip.png" alt="summary_results" width="450" height="130" style="margin-right: 10px;"/> <img src="img/zero-shot_clip.png" alt="zero-shot_results" width="350" height="130"/>
-
-### Datasets:
-| Dataset  | Modality | # of Classes | Link | # of training samples
-|----------|----------|----------|----------|----------|
-| DMD | RGB | 10  | [link](https://dmd.vicomtech.org/) | 78917(per fold)
-| StateFarm | RGB | 10  | [link](https://www.kaggle.com/competitions/state-farm-distracted-driver-detection/data) | 20204 (per fold)
-| SynDD1 | RGB | 18 | [link](https://doi.org/10.1016/j.dib.2022.108793) | 4404 (1fps, dashboard)
-| SAM-DD | RGB | 10 | [link](https://yanghh.io/SAM-DD/) | 36839 (28 drivers)
 
 
 ### Details:
@@ -96,16 +82,3 @@ For example:
         ``` { frame_01_path: {prediction label, [list of prediction prob. scores]}, 
               frame_02_path: {prediction label, [list of prediction prob. scores]}, ... } ```
 
-
-## Steps to run frame-based experiments:
-1. Set up the conda environment and run requirements.txt files from CLIP main repo
-2. Upload .mp4 video files into synvid folder (see `synvid/video_list.csv`) and run the `frame.py` to extract frames at different fps. Store the frames in [0-7] folder structure shown above.
-3. Check the driver profile folder to prepare the driver split
-3. Feed the frames to CLIP model 
-4. run the run files 
-
-### Repo for model comparison: [Link](https://github.com/suzoosuagr/CLIP_Zahid.git)
-### Repo for VideoCLIP: [Link](https://github.com/jiajingchen113322/DeepInsigth.git)
-=======
-# VLM-DriverBehavior
->>>>>>> fd6b070606891a05c1dc8183c1e84930decc30fb
