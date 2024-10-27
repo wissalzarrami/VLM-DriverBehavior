@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos](https://arxiv.org/abs/2306.10159)  
 
 Here is the codebase for running the frame based DriveCLIP framework. The summary results on different distracted driving datasets are:
@@ -105,3 +106,6 @@ For example:
 
 ### Repo for model comparison: [Link](https://github.com/suzoosuagr/CLIP_Zahid.git)
 ### Repo for VideoCLIP: [Link](https://github.com/jiajingchen113322/DeepInsigth.git)
+=======
+# VLM-DriverBehavior
+>>>>>>> fd6b070606891a05c1dc8183c1e84930decc30fb
